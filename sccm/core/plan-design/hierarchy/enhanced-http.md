@@ -90,6 +90,8 @@ An Azure AD-joined or [hybrid Azure AD device](https://docs.microsoft.com/azure/
 
 You can see these certificates in the Configuration Manager console. Go to the **Administration** workspace, expand **Security**, and select the **Certificates** node. Look for the **SMS Issuing** root certificate, as well as the site server role certificates issued by the SMS Issuing root.
 
+You can also use a Public WildCard Certificate as you can not export a pfx certificate for the SMS Issuing root certificate.
+
 For more information on how the client communicates with the management point and distribution point with this configuration, see [Communications from clients to site systems and services](/sccm/core/plan-design/hierarchy/communications-between-endpoints#Planning_Client_to_Site_System).
 
 
